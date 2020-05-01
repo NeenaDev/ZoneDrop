@@ -92,5 +92,5 @@ function initializeCountDown(id, endtime) {
   var timeinterval = setInterval(updateCountDown, 1000);
 }
 
-var deadline = new Date('08/10/2020');
+var deadline = new Date('05/25/2020');
 initializeCountDown('countDown', deadline);
