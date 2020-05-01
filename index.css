@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin: 0;
+  background-image: url(./images/landing.jpg);
+  background-position: center top;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  body .wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 0 auto; }
+    body .wrapper .col-1 {
+      width: 30%; }
+    body .wrapper .col-2 {
+      width: 70%; }
+      body .wrapper .col-2 .logo {
+        position: absolute;
+        right: 54px;
+        top: 25px;
+        width: 120px; }
+        body .wrapper .col-2 .logo label {
+          display: block;
+          background: #000;
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: 900;
+          padding: 5px 20px;
+          margin-bottom: 7px;
+          letter-spacing: 4px;
+          width: 70px;
+          font-family: serif;
+          font-size: 17px; }
+        body .wrapper .col-2 .logo label:last-child {
+          margin-left: 25px; }
+      body .wrapper .col-2 .container {
+        text-align: center;
+        padding-top: 340px; }
+        body .wrapper .col-2 .container h1 {
+          color: #000;
+          font-weight: bold;
+          font-size: 32px;
+          margin: 0 20px 11px 0;
+          text-transform: uppercase;
+          letter-spacing: 4px;
+          text-transform: uppercase; }
+        body .wrapper .col-2 .container #countDown {
+          font-family: sans-serif;
+          color: #fff;
+          display: inline-block;
+          font-weight: 100;
+          text-align: center;
+          font-size: 30px; }
+          body .wrapper .col-2 .container #countDown > div {
+            padding: 10px 5px;
+            display: inline-block; }
+            body .wrapper .col-2 .container #countDown > div > span {
+              padding: 8px 12px;
+              background: #000;
+              display: inline-block;
+              font-size: 26px;
+              font-family: serif;
+              font-weight: 900; }
+          body .wrapper .col-2 .container #countDown .daysContainer span {
+            margin-left: 9px; }
+          body .wrapper .col-2 .container #countDown .daysContainer span.daysSpan:first-child {
+            margin-left: 0; }
+          body .wrapper .col-2 .container #countDown .timeLabel {
+            padding-top: 9px;
+            font-size: 13px;
+            color: #000;
+            text-transform: uppercase;
+            font-weight: 900; }
+        body .wrapper .col-2 .container .plainText {
+          width: 100%;
+          text-align: center;
+          font-size: 12px;
+          color: #474745;
+          letter-spacing: 2px; }
+        body .wrapper .col-2 .container #message {
+          display: none;
+          text-align: right;
+          padding-top: 14px;
+          font-size: 17px;
+          color: #eb3461; }
+
+@media only screen and (max-width: 700px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    width: 100%;
+    background-position: unset;
+    background-color: #f0f0f0; }
+    body .wrapper .col-1 {
+      width: 0%; }
+    body .wrapper .col-2 {
+      width: 100%; }
+      body .wrapper .col-2 .container {
+        padding: 337px 0 0 0; }
+        body .wrapper .col-2 .container h1 {
+          font-size: 24px; }
+        body .wrapper .col-2 .container #countDown {
+          font-size: 25px; }
+          body .wrapper .col-2 .container #countDown div > span {
+            padding: 5px; }
+          body .wrapper .col-2 .container #countDown .timeLabel {
+            font-size: 12px; }
+        body .wrapper .col-2 .container .plainText {
+          text-align: center; } }
+@media only screen and (min-width: 700px) {
+  .container {
+    padding-top: 250px; }
+    .container .plainText {
+      text-align: center; } }
+
+/*# sourceMappingURL=index.css.map */

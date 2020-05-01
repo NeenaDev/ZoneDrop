@@ -1,11 +1,48 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Drop Zone</title>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Rozha+One&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <title>Drop Zone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="col-1"></div>
+      <div class="col-2">
+        <div class="logo">
+          <div>
+            <label>Drop </label>
+            <label>Zone</label>
+          </div>
+        </div>
+        <div class="container">
+          <h1>Lezzy Boost 103</h1>
+          <div id="countDown">
+            <div class="daysContainer">
+          
+            </div>
+            <div class="hoursContainer">
+              <span class="hoursCountDown1"></span>
+              <span class="hoursCountDown2"></span>
+              <div class="timeLabel">Hours</div>
+            </div>
+            <div class="minutesContainer">
+              <span class="minutesCountDown1"></span>
+              <span class="minutesCountDown2"></span>
+              <div class="timeLabel">Minutes</div>
+            </div>
+            <div class="secondsContainer">
+              <span class="secondsCountDown1"></span>
+              <span class="secondsCountDown2"></span>
+              <div class="timeLabel">Seconds</div>
+            </div>
+          </div>
+          <div class="plainText"><p>UNTIL DROP</p></div>
+          <div id="message">Timer Expired. Please set future date !!!</div>
+        </div> 
+      </div>
+    </div>
 </body>
 </html>
